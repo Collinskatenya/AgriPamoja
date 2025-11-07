@@ -250,3 +250,50 @@ footer {
 #about img:hover {
   transform: scale(1.03);
 }
+
+/* Services Section */
+#services {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#services h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+#services p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+#services .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+#services .card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#services img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#services .card-title {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#services .card-text {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}

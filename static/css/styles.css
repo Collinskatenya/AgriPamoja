@@ -1,3 +1,13 @@
+/* static/css/style.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* your other styles below */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Reset and base */
 * {
     margin: 0;
